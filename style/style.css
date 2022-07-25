@@ -246,4 +246,7 @@ body{
      height: 360px;
  }
  
+ .icono:hover{
+    transform: scale(2);
+ }
  
