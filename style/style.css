@@ -1,0 +1,249 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+body{
+    background-color: black;
+ }
+ 
+ h1{
+     font-style: oblique;
+     font-size: 65px;
+     text-align: center;
+     text-transform: uppercase;
+     color: aliceblue;
+     background-color: rgb(15, 15, 15);
+     position: sticky;
+     top: 0px;
+ }
+ 
+ h2{
+     color: aliceblue;
+     font-size: 45px;
+     text-align: center;
+ }
+ 
+ 
+ .cabra{
+     background-color: rgb(15, 15, 15);
+     color:  #6b6e34
+ }
+     
+ 
+ 
+ 
+ h3{
+     color: aliceblue;
+     font-size: 45px;
+     text-align: center;
+     background-color: rgb(15, 15, 15) ;
+     border: 21px outset black ;
+     margin: 0px 121px -13px 140px;
+ }
+ 
+ p{
+     color: aliceblue;
+     font-size: 19px;
+ }
+ 
+ 
+ a{
+     color: aliceblue;
+ }
+ 
+ footer{
+     max-width: 1370px;
+     max-height: 174px;
+     text-align: center;
+     text-decoration: none;
+     padding: 5px;
+     margin: 15px 0px 0px 0px;
+     
+     background-color: rgb(15, 15, 15);
+ }
+ 
+ label{
+     color: aliceblue;
+     
+ }
+ 
+ div{
+     color: aliceblue;
+    
+ }
+ 
+ nav{
+     font-size: 35px;
+     font-style: italic;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     
+     
+ }
+     
+ 
+ a{
+     text-decoration: none;
+     padding: 20px;
+     
+     
+ }
+ 
+ ul li{
+     list-style-type: none;
+     display: inline-block;
+     
+ }
+ 
+ header{
+     background-color: rgb(15, 15, 15, 0.49) ;
+     padding: 40px;
+     border: 21px outset black ;
+     margin: 15px 40px 40px 40px;
+     
+ }
+ 
+ img{
+     margin: 15px 70px 34px 45px;
+    
+     max-width: 500px;
+     max-height: 550px;
+    
+ }
+ 
+ nav ul{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ 
+ .debut{
+     font-size: 29px;
+     padding: 20px;
+     margin: 0px 67px -19px 6px;
+ }
+ .fotis{
+      background-color: rgb(15, 15, 15);;
+ }
+ 
+ 
+ 
+ .foshop{
+     display: grid;
+     grid-template-columns: 50% 50%;
+     padding: 30px;
+     justify-items: center;
+     justify-content: space-between;
+    
+     
+ }
+ 
+ .imm{
+     margin: 15px 141px 114px 33px;
+ }
+ 
+ .usu{
+     font-size: 30px;
+     padding: 20px;
+     
+ }
+ 
+ 
+ form{
+     text-align: center;
+ }
+ 
+ .regi{
+     text-align: center;
+     font-size: 30px;
+     display: grid;
+     grid-template-columns: 100%;
+     
+     
+ }
+     
+     
+ 
+ 
+ 
+ .acce{
+     font-size: 50px;
+     padding: 15px;
+     margin: -68px 10px 27px 10px;
+ }
+ 
+ main{
+     display: grid;
+     grid-template-columns: 50% 50%;
+    
+ }
+ 
+ .duto{
+     max-width: 275px;
+     max-height: 549px;
+     display: grid;
+ }
+ 
+ .parrafitoUno{
+     display: flex;
+     max-width: 220px;
+     max-height: 152px;
+     padding: 8px 39px 23px 156px;
+     font-size: 25px;
+    
+ }
+ 
+ .indep{
+     text-align: center;
+ }
+ 
+ .icono{
+     width: 65px;
+     height: 56px;
+     color: antiquewhite;
+     display: flex;
+     
+ }
+ 
+ .redes{
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     justify-content: space-evenly
+ }
+ 
+ .porto{
+     display: grid;
+     grid-template-columns: auto;
+     justify-items: center;
+     
+ }
+ 
+ .porto2{
+     width: 850px;
+     height: 181px;
+ }
+ 
+ .primer{
+     display: grid;
+     justify-items: center;
+     padding: 40px;
+     grid-template-columns: 100%;
+     
+     
+ }
+ .gale{
+     display: grid;
+     grid-template-columns: 50% 50%;
+     justify-content: space-between;
+     padding: 30px 0px 20px 57px;
+     
+ }
+ .galedos{
+     width: 472px;
+     height: 360px;
+ }
+ 
+ 
