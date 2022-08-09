@@ -178,6 +178,8 @@ h1, .parrafitoUno, div {
         footer{
             background-color: rgb(63, 23, 15);
         }
+
+       
  }
 
 
@@ -345,11 +347,11 @@ h1, .parrafitoUno, div {
     }
      .laiu:hover{
       border: 5px solid black;
-      transform: scale(3);
+      transform: scale(1.5);
      }
     .laio:hover {
       border: 5px solid black;
-      transform: scale(3);
+      transform: scale(1.5);
     }
 
     .porto2, .parra{
