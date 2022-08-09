@@ -3,250 +3,503 @@
     margin: 0%;
 }
 
-
-
 body{
     background-color: black;
- }
+    color: antiquewhite;
+    font-style: oblique;
+    min-height: 100vh;
+}
+
+header{
+    font-size: 6vh;
+    display: grid;
+    justify-content: center;
+   background-color: #6b6e34;
+   border: 4px solid black;
+}
+
  
- h1{
-     font-style: oblique;
-     font-size: 65px;
-     text-align: center;
-     text-transform: uppercase;
-     color: aliceblue;
-     background-color: rgb(15, 15, 15);
-     position: sticky;
-     top: 0px;
- }
- 
- h2{
-     color: aliceblue;
-     font-size: 45px;
-     text-align: center;
- }
- 
- 
- .cabra{
-     background-color: rgb(15, 15, 15);
-     color:  #6b6e34
- }
-     
- 
- 
- 
- h3{
-     color: aliceblue;
-     font-size: 45px;
-     text-align: center;
-     background-color: rgb(15, 15, 15) ;
-     border: 21px outset black ;
-     margin: 0px 121px -13px 140px;
- }
- 
- p{
-     color: aliceblue;
-     font-size: 19px;
- }
- 
- 
+
+nav ul li{
+    list-style-type: none;
+}
+
+h1, .parrafitoUno, div {
+    text-align:center ;
+    
+}
+
+.bnb{
+    max-width: 19vh;
+    max-height: 22vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    margin-left: 9vh;
+    
+}
+
  a{
-     color: aliceblue;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 5vh;
  }
- 
- footer{
-     max-width: 1370px;
-     max-height: 174px;
-     text-align: center;
-     text-decoration: none;
-     padding: 5px;
-     margin: 15px 0px 0px 0px;
-     
-     background-color: rgb(15, 15, 15);
+
+ .hache{
+    background-color: rgb(17, 15, 15);
+    font-size: 4vh;
  }
- 
- label{
-     color: aliceblue;
-     
- }
- 
- div{
-     color: aliceblue;
-    
- }
- 
- nav{
-     font-size: 35px;
-     font-style: italic;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     
-     
- }
-     
- 
- a{
-     text-decoration: none;
-     padding: 20px;
-     
-     
- }
- 
- ul li{
-     list-style-type: none;
-     display: inline-block;
-     
- }
- 
- header{
-     background-color: rgb(15, 15, 15, 0.49) ;
-     padding: 40px;
-     border: 21px outset black ;
-     margin: 15px 40px 40px 40px;
-     
- }
- 
- img{
-     margin: 15px 70px 34px 45px;
-    
-     max-width: 500px;
-     max-height: 550px;
-    
- }
- 
- nav ul{
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
- }
- 
- .debut{
-     font-size: 29px;
-     padding: 20px;
-     margin: 0px 67px -19px 6px;
- }
- .fotis{
-      background-color: rgb(15, 15, 15);;
- }
- 
- 
- 
- .foshop{
-     display: grid;
-     grid-template-columns: 50% 50%;
-     padding: 30px;
-     justify-items: center;
-     justify-content: space-between;
-    
-     
- }
- 
- .imm{
-     margin: 15px 141px 114px 33px;
- }
- 
- .usu{
-     font-size: 30px;
-     padding: 20px;
-     
- }
- 
- 
- form{
-     text-align: center;
- }
- 
- .regi{
-     text-align: center;
-     font-size: 30px;
-     display: grid;
-     grid-template-columns: 100%;
-     
-     
- }
-     
-     
- 
- 
- 
- .acce{
-     font-size: 50px;
-     padding: 15px;
-     margin: -68px 10px 27px 10px;
- }
- 
- main{
-     display: grid;
-     grid-template-columns: 50% 50%;
-    
- }
- 
- .duto{
-     max-width: 275px;
-     max-height: 549px;
-     display: grid;
- }
- 
- .parrafitoUno{
-     display: flex;
-     max-width: 220px;
-     max-height: 152px;
-     padding: 8px 39px 23px 156px;
-     font-size: 25px;
-    
- }
- 
+
  .indep{
-     text-align: center;
+    font-size: 2.2vh;
  }
- 
- .icono{
-     width: 65px;
-     height: 56px;
-     color: antiquewhite;
-     display: flex;
+ footer{
+    background-color: rgb(17, 15, 15) ;
+    margin-bottom: 0%;
+    margin-top: 2vh;
+ }
+
+ .accordion-item{
+   color: rgb(132, 126, 138);
+ }
+
+
+
+ h1{
+    font-size: 7vh;
+}
+ header{
+    grid-area: header;
+ }
+
+ .conten{
+    grid-area: main;
+ }
+
+ .adentro{
+    grid-area: section;
+ }
+
+ footer{
+    grid-area: footer;
+ }
+
+ header{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "section"
+    "footer";
+ }
+
+ .conten{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+ }
+
+ @media (min-width:500px){
+    header{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "section"
+        "footer";
+     }
+
+     .hache{
+        background-color: rgb(64, 80, 19);
+     }
      
+     nav ul li{
+        display: inline-block;
+     }
  }
- 
- .redes{
-     display: flex;
-     flex-wrap: nowrap;
-     flex-direction: row;
-     justify-content: space-evenly
- }
- 
- .porto{
-     display: grid;
-     grid-template-columns: auto;
-     justify-items: center;
+
+ @media (min-width:760px){
+    header{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "section"
+        "footer";
+     }
+
+     .hache{
+        background-color: rgb(64, 80, 19);
+     }
      
+     nav ul li{
+        display: inline-block;
+
+     }
+
+     .parrafitoUno{
+        font-size: 3.1vh;
+     }
+     
+.bnb{
+    max-width: 67vh;
+    max-height: 67vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    margin-left: 9vh;
+    
+}
+
+
+.hache{
+    background-color: rgb(56, 21, 21);
+    font-size: 6vh;
  }
+
+ .indep{
+    font-size: 3.2vh;
+    }
+}
+
+@media (min-width:1024px){
+    
+    .parrafitoUno{
+        font-size: 3.7vh;
+    }
+    
+    .hache{
+        background-color: rgb(56, 21, 21);
+        font-size: 8.1vh;
+     }
+    
+     .indep{
+        font-size: 3.7vh;
+        }
+
+        footer{
+            background-color: rgb(63, 23, 15);
+        }
+ }
+
+
  
+
+
+
+ /*GOAT*/
+
+ .cabra{
+    background-color: rgb(15, 15, 15);
+    color:  #6b6e34;
+    font-size: 5vh;
+ }
+
+ .debut{
+    display: flex;
+    justify-content: center;
+    font-size: 3.1vh;
+
+ }
+
+ .laiu{
+    max-width: 26vh;
+    max-height: 84vh;
+    
+    
+ }
+
  .porto2{
-     width: 850px;
-     height: 181px;
+  font-size: 2.1vh;
+  margin-bottom: 2vh;
+ }
+
+ .debutin{
+    display: flex;
+    justify-content: center;
+    font-size: 3.1vh;
+ }
+
+ .laio{
+    max-width: 26vh;
+    max-height: 84vh;
+ }
+
+ .parra{
+    font-size: 2.1vh;
+  margin-bottom: 2vh;
  }
  
- .primer{
-     display: grid;
-     justify-items: center;
-     padding: 40px;
-     grid-template-columns: 100%;
-     
-     
+
+ .envoltura{
+   grid-area: envoltura;
  }
- .gale{
-     display: grid;
-     grid-template-columns: 50% 50%;
-     justify-content: space-between;
-     padding: 30px 0px 20px 57px;
-     
- }
- .galedos{
-     width: 472px;
-     height: 360px;
- }
- 
- .icono:hover{
-    transform: scale(2);
- }
- 
+  header{
+    grid-area: header;
+  }
+
+  .goat{
+    grid-area: primero;
+  }
+
+  .porto{
+    grid-area: segundo;
+  }
+
+  .fotodebu{
+    grid-area: tercero;
+  }
+
+  .divegoat1{
+    grid-area: cuarto;
+  }
+
+  .primer{
+    grid-area: quinto;
+  }
+
+  .primereando{
+    grid-area: sexto;
+  }
+
+  .divegoat2{
+    grid-area: septimo;
+  }
+
+  footer{
+    grid-area: footer;
+  }
+
+  .envoltura{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "primero"
+    "segundo"
+    "tercero"
+    "cuarto"
+    "quinto"
+    "sexto"
+    "septimo"
+    "footer";
+  }
+
+  .envoltura{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  @media (min-width:500px){
+    .envoltura{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "primero"
+        "segundo"
+        "tercero"
+        "cuarto"
+        "quinto"
+        "sexto"
+        "septimo"
+        "footer";
+      }
+
+      .cabra, .debut{
+        text-align: center;
+        margin-top: 2vh;
+      }
+
+      .fotodebu, .primereando{
+        text-align: center;
+      }
+
+  }
+
+  @media (min-width:750px){
+   .envoltura{
+      display: grid;
+      grid-template-areas: 
+      "header"
+      "primero"
+      "segundo"
+      "tercero"
+      "cuarto"
+      "quinto"
+      "sexto"
+      "septimo"
+      "footer";
+    }
+
+    body{
+      background-color: rgb(17, 0, 0);
+    }
+    .debut{
+      margin-bottom: 2vh;
+      font-size: 5vh;
+      background-color: rgb(17, 16, 16);
+    }
+
+    .debutin{
+      margin-bottom: 2vh;
+      font-size: 5vh;
+      background-color: rgb(17, 16, 16);
+    }
+     .laiu:hover{
+      border: 5px solid black;
+      transform: scale(3);
+     }
+    .laio:hover {
+      border: 5px solid black;
+      transform: scale(3);
+    }
+
+    .porto2, .parra{
+      font-size: 3vh;
+    }
+  }
+
+  @media (min-width:1024px){
+   .envoltura{
+      display: grid;
+      grid-template-areas: 
+      "header"
+      "primero"
+      "segundo"
+      "tercero"
+      "cuarto"
+      "quinto"
+      "sexto"
+      "septimo"
+      "footer";
+    }
+    
+    body{
+      background-color: black;
+    }
+
+    .laio, .laiu{
+      max-width: 78vh;
+      max-height: 97vh;
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+      
+    }
+
+   
+    header{
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    }
+
+
+    /*GALERIA*/
+.fotis{
+   background-color: rgb(15, 15, 15);;
+}
+
+h2{
+   color: aliceblue;
+   font-size: 6vh;
+   text-align: center;
+}
+
+
+.gale{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: 33% 33% 33%;
+   justify-content: space-between;
+   padding: 2vh 4vh 2vh 21vh;   
+   
+}
+   
+.galedos{
+   display: flex;
+   width: 72vh;
+   height: 52vh;
+   justify-content: space-between;
+   margin: 2vh;
+}
+
+/*SHOP*/
+
+.foshop{
+   display: grid;
+   grid-template-columns: 33% 33% 33%;
+   grid-template-rows: 50% 50%;
+   padding: 3vh;
+   justify-items: center;
+   justify-content: space-between;
+}
+
+.duto{
+   max-width: 82%;
+   max-height: 80%;
+   display: grid;
+}
+
+/*ACCEDE*/
+
+.regi{
+   text-align: center;
+   font-size: 5vh;
+   display: grid;
+   grid-template-columns: 100%;
+}
+
+.usu{
+   font-size: 4vh;
+   padding: 2vh;
+}
+
+a{
+   color: aliceblue;
+   text-decoration: none;
+   padding: 2vh;
+}
+
+
+/*REGISTRO*/
+
+.acce{
+   font-size: 6vh;
+   padding: 7vh;
+   margin: 2vh 9vh 3vh 2vh;
+}
+
+label{
+   color: aliceblue;
+}
+
+/*FOOTER*/
+
+footer{
+   max-width: 100%;
+   max-height: 10%;
+   text-align: center;
+   text-decoration: none;
+  padding-top: 3vh;
+  padding-block: 2vh;
+   background-color: rgb(15, 15, 15);
+}
+
+.icono{
+   width: 8vh;
+   height: 8vh;
+   color: antiquewhite;
+   display: flex;
+}
+
+.redes{
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   justify-content: space-evenly
+}
+
+.icono:hover{
+  transform: scale(2);
+}
+   
+  
