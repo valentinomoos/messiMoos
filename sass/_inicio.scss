@@ -1,0 +1,124 @@
+h1, .parrafitoUno, div {
+    text-align: center;
+  }
+  
+  .bnb {
+    max-width: 19vh;
+    max-height: 22vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    margin-left: 9vh;
+  }
+  
+  a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 5vh;
+  }
+  
+  .hache {
+    background-color: rgb(17, 15, 15);
+    font-size: 4vh;
+  }
+  
+  .indep {
+    font-size: 2.2vh;
+  }
+  
+  footer {
+    background-color: rgb(17, 15, 15);
+    margin-bottom: 0%;
+    margin-top: 2vh;
+  }
+  
+  .accordion-item {
+    color: rgb(132, 126, 138);
+  }
+  
+  h1 {
+    font-size: 7vh;
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  .conten {
+    grid-area: main;
+  }
+  
+  .adentro {
+    grid-area: section;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
+  
+  header {
+    display: grid;
+    grid-template-areas: "header" "main" "section" "footer";
+  }
+  
+  .conten {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  
+  @media (min-width: 500px) {
+    header {
+      display: grid;
+      grid-template-areas: "header" "main" "section" "footer";
+    }
+    .hache {
+      background-color: rgb(64, 80, 19);
+    }
+    nav ul li {
+      display: inline-block;
+    }
+  }
+  @media (min-width: 760px) {
+    header {
+      display: grid;
+      grid-template-areas: "header" "main" "section" "footer";
+    }
+    .hache {
+      background-color: rgb(64, 80, 19);
+    }
+    nav ul li {
+      display: inline-block;
+    }
+    .parrafitoUno {
+      font-size: 3.1vh;
+    }
+    .bnb {
+      max-width: 67vh;
+      max-height: 67vh;
+      margin-top: 3vh;
+      margin-bottom: 5vh;
+      margin-left: 9vh;
+    }
+    .hache {
+      background-color: rgb(56, 21, 21);
+      font-size: 6vh;
+    }
+    .indep {
+      font-size: 3.2vh;
+    }
+  }
+  @media (min-width: 1024px) {
+    .parrafitoUno {
+      font-size: 3.7vh;
+    }
+    .hache {
+      background-color: rgb(56, 21, 21);
+      font-size: 8.1vh;
+    }
+    .indep {
+      font-size: 3.7vh;
+    }
+    footer {
+      background-color: rgb(63, 23, 15);
+    }
+}
