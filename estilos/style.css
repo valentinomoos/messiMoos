@@ -326,6 +326,10 @@ h2 {
   margin: 2vh;
 }
 
+.fotacas, .galedos {
+  border: 8px solid rgb(13, 13, 39);
+}
+
 /*shop*/
 .foshop {
   display: grid;
@@ -337,8 +341,8 @@ h2 {
 }
 
 .duto {
-  max-width: 82%;
-  max-height: 80%;
+  height: 75%;
+  width: 76%;
   display: grid;
 }
 

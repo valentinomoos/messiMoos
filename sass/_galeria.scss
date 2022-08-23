@@ -27,3 +27,12 @@
     justify-content: space-between;
     margin: 2vh;
  }
+
+ .fotacas{
+   border: 8px solid rgb(13, 13, 39)
+
+ }
+
+ .galedos{
+   @extend .fotacas;
+ }

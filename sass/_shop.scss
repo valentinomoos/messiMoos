@@ -9,8 +9,15 @@
     justify-content: space-between;
  }
  
- .duto{
-    max-width: 82%;
-    max-height: 80%;
-    display: grid;
- }
+ 
+
+ @mixin sizes($width,$height) {
+    height: $height;
+    width: $width;
+
+   }
+
+  .duto{
+   @include sizes(76%, 75%);
+   display: grid
+  }
