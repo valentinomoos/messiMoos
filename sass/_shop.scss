@@ -21,3 +21,35 @@
    @include sizes(76%, 75%);
    display: grid
   }
+
+  @media (max-width:370px){
+   .foshop {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 16% 16% 16% 16% 16% 16%;
+      padding: 3vh;
+      justify-items: center;
+      justify-content: space-between;
+  }
+
+  .fotis{
+   font-size: 4vh;
+  }
+  }
+
+
+  @media (max-width:720px){
+   .foshop {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 33% 33% 33%;
+      padding: 3vh;
+      justify-items: center;
+      justify-content: space-between;
+  }
+
+  h2{
+   font-size: 6vh;
+  }
+
+  }
