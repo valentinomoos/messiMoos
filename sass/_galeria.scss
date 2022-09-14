@@ -37,6 +37,28 @@
    @extend .fotacas;
  }  
 
+ 
+ @media (min-width:100px){
+   .gale {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 16% 16% 16% 16% 16% 16%;
+      justify-content: space-between;
+      padding: 2vh 0vh 2vh 4vh;
+  }
+  .galedos {
+   display: flex;
+   width: 35vh;
+   height: 35vh;
+   justify-content: space-between;
+   margin: 5vh;
+  }
+  
+  h2{
+   font-size: 4vh;
+  }
+ }
+
  @media (min-width:300px){
    .gale {
       display: grid;
