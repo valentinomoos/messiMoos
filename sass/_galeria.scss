@@ -1,5 +1,7 @@
  /*galeria*/
 
+ 
+
  .fotis{
     background-color: rgb(15, 15, 15);;
  }
@@ -37,8 +39,29 @@
    @extend .fotacas;
  }  
 
+ @media (min-width:75px){
+   .gale {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 16% 16% 16% 16% 16% 16%;
+      justify-content: space-between;
+      padding: 2vh 0vh 2vh 4vh;
+  }
+  .galedos {
+   display: flex;
+   width: 14vh;
+   height: 14vh;
+   justify-content: space-between;
+   margin: 2vh;
+  }
+  
+  h2{
+   font-size: 2vh;
+  }
+ }
+
  
- @media (min-width:100px){
+ @media (min-width:275px){
    .gale {
       display: grid;
       grid-template-columns: 100%;
@@ -48,10 +71,10 @@
   }
   .galedos {
    display: flex;
-   width: 35vh;
-   height: 35vh;
+   width: 29vh;
+   height: 20vh;
    justify-content: space-between;
-   margin: 5vh;
+   margin: 2vh;
   }
   
   h2{
@@ -59,27 +82,8 @@
   }
  }
 
- @media (min-width:300px){
-   .gale {
-      display: grid;
-      grid-template-columns: 100%;
-      grid-template-rows: 16% 16% 16% 16% 16% 16%;
-      justify-content: space-between;
-      padding: 2vh 0vh 2vh 4vh;
-  }
-  .galedos {
-   display: flex;
-   width: 35vh;
-   height: 35vh;
-   justify-content: space-between;
-   margin: 5vh;
-  }
-  
-  h2{
-   font-size: 4vh;
-  }
- }
 
+ 
  @media (min-width:500px){
    .gale {
       display: grid;
@@ -107,8 +111,8 @@
    }
    .galedos {
       display: flex;
-      width: 47vh;
-      height: 39vh;
+      width: 30vh;
+      height: 29vh;
       justify-content: space-between;
       margin: 2vh;
   }

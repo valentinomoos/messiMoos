@@ -57,7 +57,7 @@ h1, .parrafitoUno, div {
   
   header {
     display: grid;
-    grid-template-areas: "header" "main" "section" "footer";
+    
   }
   
   .conten {
@@ -69,7 +69,7 @@ h1, .parrafitoUno, div {
   @media (min-width: 500px) {
     header {
       display: grid;
-      grid-template-areas: "header" "main" "section" "footer";
+     
     }
     .hache {
       background-color: rgb(64, 80, 19);
@@ -81,7 +81,7 @@ h1, .parrafitoUno, div {
   @media (min-width: 760px) {
     header {
       display: grid;
-      grid-template-areas: "header" "main" "section" "footer";
+      
     }
     .hache {
       background-color: rgb(64, 80, 19);

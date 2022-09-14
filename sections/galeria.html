@@ -18,10 +18,10 @@
 
     <h1>Todo Messi</h1>
 
-
-    <header>
-
-        <nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          
+          <span class="text-muted">
             <ul class="nave">
                 <li>
                     <a  href="../index.html">Inicio</a>
@@ -44,9 +44,17 @@
 
                 </li>
             </ul>
-
-        </nav>
-    </header>
+          </span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    
 
     <p class="alert alert-dark" role="alert">
         Solo Messiánicos!

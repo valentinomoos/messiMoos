@@ -81,7 +81,6 @@ footer {
 
 header {
   display: grid;
-  grid-template-areas: "header" "main" "section" "footer";
 }
 
 .conten {
@@ -93,7 +92,6 @@ header {
 @media (min-width: 500px) {
   header {
     display: grid;
-    grid-template-areas: "header" "main" "section" "footer";
   }
   .hache {
     background-color: rgb(64, 80, 19);
@@ -105,7 +103,6 @@ header {
 @media (min-width: 760px) {
   header {
     display: grid;
-    grid-template-areas: "header" "main" "section" "footer";
   }
   .hache {
     background-color: rgb(64, 80, 19);
@@ -330,7 +327,7 @@ h2 {
   border: 8px solid rgb(13, 13, 39);
 }
 
-@media (min-width: 300px) {
+@media (min-width: 75px) {
   .gale {
     display: grid;
     grid-template-columns: 100%;
@@ -340,10 +337,29 @@ h2 {
   }
   .galedos {
     display: flex;
-    width: 35vh;
-    height: 35vh;
+    width: 14vh;
+    height: 14vh;
     justify-content: space-between;
-    margin: 5vh;
+    margin: 2vh;
+  }
+  h2 {
+    font-size: 2vh;
+  }
+}
+@media (min-width: 275px) {
+  .gale {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+    justify-content: space-between;
+    padding: 2vh 0vh 2vh 4vh;
+  }
+  .galedos {
+    display: flex;
+    width: 29vh;
+    height: 20vh;
+    justify-content: space-between;
+    margin: 2vh;
   }
   h2 {
     font-size: 4vh;
@@ -374,8 +390,8 @@ h2 {
   }
   .galedos {
     display: flex;
-    width: 47vh;
-    height: 39vh;
+    width: 30vh;
+    height: 29vh;
     justify-content: space-between;
     margin: 2vh;
   }
